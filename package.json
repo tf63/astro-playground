@@ -1,0 +1,27 @@
+{
+    "name": "astro-playground",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev --port 5173",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro",
+        "format": "prettier . --write",
+        "clean": "rm -rf node_modules/ .astro/ dist/",
+        "prepare": "lefthook install"
+    },
+    "dependencies": {
+        "@commitlint/cli": "^19.5.0",
+        "@commitlint/config-conventional": "^19.5.0",
+        "@biomejs/biome": "^1.9.3",
+        "@astrojs/check": "^0.9.4",
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "lefthook": "^1.7.18",
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.8",
+        "astro": "^4.16.16",
+        "typescript": "^5.7.2"
+    },
+    "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35"
+}
