@@ -19,6 +19,19 @@ pnpm astro add react
 pnpm astro add tailwind
 ```
 
+`astro.config.mjs`にインテグレーションが生える
+
+```javascript
+import react from '@astrojs/react'
+import tailwind from '@astrojs/tailwind'
+import { defineConfig } from 'astro/config'
+
+// https://astro.build/config
+export default defineConfig({
+    integrations: [tailwind(), react()],
+})
+```
+
 **path aliasの指定**
 `tsconfig.json`でbaseUrlとpathsを指定する
 
