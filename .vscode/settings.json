@@ -32,5 +32,8 @@
     "[vue]": {},
     "[svelte]": {},
     "[xml]": {},
-    "[handlebars]": {}
+    "[handlebars]": {},
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    }
 }
